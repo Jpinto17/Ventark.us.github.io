@@ -1,11 +1,8 @@
-`body {
+body {
     background-color: black;
     background-image: url(ha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-#page1{
-    
 }
 #mainheader{
     width: 1000px;
