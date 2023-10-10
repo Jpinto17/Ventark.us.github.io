@@ -1,0 +1,124 @@
+`body {
+    background-color: black;
+    background-image: url(ha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page1{
+    
+}
+#mainheader{
+    width: 1000px;
+    height: 173px;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    border-radius: 25px;
+}
+#photo1{
+    width: 350px;
+    height: 340px;
+    margin-left: -10px;
+    border-radius: 20px;
+    margin-top: -91.5px;
+    background-size: cover;
+    background-image: url(ZAC.png);
+    background-repeat: no-repeat; 
+}
+h1{
+    font-size: 540%;
+    float: right;
+    margin-top: -225px;
+    margin-right: 20px;
+    position: inherit;
+    font-family:fantasy;
+}
+#pages{
+    width: 1000px;
+    height: 52px;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    border-radius: 15px;
+    
+}
+#photos {
+    background-color: cadetblue;
+    margin-left: 750px;
+}
+#visited{
+    background-color: darkgoldenrod;
+    margin-top: -55px;
+    margin-left: 500px;
+}
+#about {
+    background-color: cadetblue;
+    margin-top: -55px;
+    margin-left: 250px;
+}
+#outlining{
+    background-color: darkgoldenrod;
+    margin-top: -53px; 
+}
+
+.options{
+    border: 2px solid gray;
+    border-radius: 15px;
+    height:50px;
+    width:246px;
+    text-align: center;
+    font-size: 240%;
+    font-family:fantasy;
+}
+#a{
+    color: black;
+}
+#mainpage {
+     width: 1000px;
+    height: 500px;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    border-radius: 25px;
+    opacity: .92;
+    overflow: scroll;
+    text-align: center;
+    font-family: sans-serif;
+}
+#logo{
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 4s; 
+    -ms-animation: fadein 4s; 
+    -o-animation: fadein 4s; 
+    animation: fadein 4s;
+    height: 70px;
+    width: 70px;
+    background-image: url(JNH.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
